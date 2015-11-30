@@ -1,0 +1,24 @@
+#search{
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+}
+.sign{
+	background-color: white;
+	opacity: 0.9;
+	padding: 20px;
+}
+#area{
+	color:black;
+}
+.checkbox{
+	text-align: left;
+}
+#buddies{
+	margin: 0 auto;
+	text-align: center;
+}
+.buddy{
+	max-height: 150px;
+	max-width: 150px;
+}
