@@ -1,5 +1,5 @@
 #social-buttons button {
-color: white;
+	color: white;
 }
 #social-buttons{
 	padding-bottom: 50px;
@@ -18,12 +18,13 @@ border-color: #b62f26;
 }
 .jumbotron {
 	min-height : 600px;
-	background-image: url('images/World.jpg');
+	background-image: url('images/beach.jpg');
+	background-position: center;
 	background-size : cover;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	padding-top: 100px;
 }
-#mission {
+#about {
 	background-color: rgba(32,35,41,0.9);
 	color: #ddd;
 	text-align: center;
@@ -43,9 +44,6 @@ border-color: #b62f26;
   margin-top: 50px;
 }
 
-.navbar{
-	opacity:0.7;
-}
 
 #error{
 	color:red;
@@ -53,4 +51,21 @@ border-color: #b62f26;
 
 #statement{
 	padding: 30px;
+}
+
+.navbar{
+	opacity:0.7;
+	font-family: 'Vast Shadow', cursive;
+}
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: black;
+  font-family: cursive;
+  text-align: center;
+  opacity:0.7;
 }
